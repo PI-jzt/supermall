@@ -1,0 +1,41 @@
+@import "./normalize.css";
+@import "./swiper.min.css";
+.clearFloat::after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    clear: both;
+}
+
+* {
+    touch-action: pan-y;
+}
+
+html {
+    background-color: #f1f1f2;
+}
+
+:root {
+    --color-text: pink;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    border: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
